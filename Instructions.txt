@@ -2,4 +2,5 @@ Instructions:
 Make sure you have unrar package
 Build the program using command make
 Client parameters <IP> <Port>
+Simulate parameters <"receive file" in ms>(Optional)
 Server parameters <File Directory>(Optional)

@@ -1,6 +1,8 @@
 Instructions:
-Make sure you have unrar package
+Run tar -zxvf ImageTransfer.tar.gz 
 Build the program using command make
-Client parameters <IP> <Port>
-Simulate parameters <"receive file" in ms>(Optional)
-Server parameters <File Directory>(Optional)
+ClientFS parameters <IP><Port> //Simulates receiving files
+ClientZyboFS parameters <IP><Port> //Simulates sending files to GUI
+Simulate parameters <"receive file" in ms>(Optional) //Simulates creating a file on a Zybo
+Server parameters <File Directory>(Optional) //Simulates sending files to GUI
+StreamZyboClient parameters <Time in ms><IP><Port>(Optional) //Current implementation of streaming bytes to GUI
